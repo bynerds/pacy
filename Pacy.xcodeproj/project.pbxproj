@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220788F22C9F1EE0001AD864 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220788F12C9F1EE0001AD864 /* StoreKit.framework */; };
+		220788F42C9F2510001AD864 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220788F32C9F2510001AD864 /* StoreKit.framework */; };
+		22428C012C54203A0017E70D /* iPhoneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C002C54203A0017E70D /* iPhoneAppApp.swift */; };
+		22428C032C54203A0017E70D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C022C54203A0017E70D /* ContentView.swift */; };
+		22428C052C54203C0017E70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22428C042C54203C0017E70D /* Assets.xcassets */; };
+		22428C082C54203C0017E70D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22428C072C54203C0017E70D /* Preview Assets.xcassets */; };
+		22428C122C54203C0017E70D /* iPhoneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C112C54203C0017E70D /* iPhoneAppTests.swift */; };
+		22428C1C2C54203C0017E70D /* iPhoneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C1B2C54203C0017E70D /* iPhoneAppUITests.swift */; };
+		22428C1E2C54203C0017E70D /* iPhoneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C1D2C54203C0017E70D /* iPhoneAppUITestsLaunchTests.swift */; };
+		22428C2A2C5421900017E70D /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C292C5421900017E70D /* WorkoutManager.swift */; };
+		22428C2C2C5421CF0017E70D /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22428C2B2C5421CF0017E70D /* WorkoutDetailView.swift */; };
+		224B64AE2CC0175000E1F408 /* MaxPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B64AD2CC0175000E1F408 /* MaxPulseView.swift */; };
+		224B64B62CC8048A00E1F408 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 224B64B52CC8048A00E1F408 /* CoreGPX */; };
+		E0CF93A22661A76300F7CED2 /* Pacy bynerds.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0CF93A12661A76300F7CED2 /* Pacy bynerds.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0CF93A72661A76400F7CED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF93A62661A76400F7CED2 /* Assets.xcassets */; };
+		E0CF93B52661A76500F7CED2 /* MyWorkoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CF93B42661A76500F7CED2 /* MyWorkoutsApp.swift */; };
+		E0CF93B72661A76500F7CED2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CF93B62661A76500F7CED2 /* ComplicationController.swift */; };
+		E0CF93B92661A76600F7CED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF93B82661A76600F7CED2 /* Assets.xcassets */; };
+		E0CF93BC2661A76600F7CED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF93BB2661A76600F7CED2 /* Preview Assets.xcassets */; };
+		E0DCA6202661B27D00496154 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DCA61F2661B27D00496154 /* HealthKit.framework */; };
+		E0DCA6242661B3A800496154 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6232661B3A800496154 /* WorkoutManager.swift */; };
+		E0DCA62C2661B3CD00496154 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6252661B3CD00496154 /* ControlsView.swift */; };
+		E0DCA62D2661B3CD00496154 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6262661B3CD00496154 /* ActivityRingsView.swift */; };
+		E0DCA62E2661B3CD00496154 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6272661B3CD00496154 /* SummaryView.swift */; };
+		E0DCA62F2661B3CD00496154 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6282661B3CD00496154 /* StartView.swift */; };
+		E0DCA6302661B3CD00496154 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA6292661B3CD00496154 /* ElapsedTimeView.swift */; };
+		E0DCA6312661B3CD00496154 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA62A2661B3CD00496154 /* SessionPagingView.swift */; };
+		E0DCA6322661B3CD00496154 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DCA62B2661B3CD00496154 /* MetricsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22428C0E2C54203C0017E70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CF93972661A76300F7CED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22428BFD2C54203A0017E70D;
+			remoteInfo = iPhoneApp;
+		};
+		22428C182C54203C0017E70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CF93972661A76300F7CED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22428BFD2C54203A0017E70D;
+			remoteInfo = iPhoneApp;
+		};
+		E0CF93A32661A76300F7CED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CF93972661A76300F7CED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CF93A02661A76300F7CED2;
+			remoteInfo = "MyWorkouts WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0CF93C72661A76600F7CED2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E0CF93A22661A76300F7CED2 /* Pacy bynerds.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		220788F12C9F1EE0001AD864 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		220788F32C9F2510001AD864 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		22428BF92C541FAB0017E70D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		22428BFE2C54203A0017E70D /* iPhoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22428C002C54203A0017E70D /* iPhoneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneAppApp.swift; sourceTree = "<group>"; };
+		22428C022C54203A0017E70D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22428C042C54203C0017E70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22428C072C54203C0017E70D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22428C0D2C54203C0017E70D /* iPhoneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22428C112C54203C0017E70D /* iPhoneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneAppTests.swift; sourceTree = "<group>"; };
+		22428C172C54203C0017E70D /* iPhoneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22428C1B2C54203C0017E70D /* iPhoneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneAppUITests.swift; sourceTree = "<group>"; };
+		22428C1D2C54203C0017E70D /* iPhoneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22428C282C54204E0017E70D /* iPhoneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPhoneApp.entitlements; sourceTree = "<group>"; };
+		22428C292C5421900017E70D /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		22428C2B2C5421CF0017E70D /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		22428C362C550C4E0017E70D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B64AD2CC0175000E1F408 /* MaxPulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPulseView.swift; sourceTree = "<group>"; };
+		9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		B97863FA9DADB69A3D7E0241 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E08DF6C32661BF0600EB0963 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E0CF939D2661A76300F7CED2 /* Pacy bynerds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacy bynerds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF93A12661A76300F7CED2 /* Pacy bynerds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacy bynerds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF93A62661A76400F7CED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0CF93A82661A76400F7CED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CF93B42661A76500F7CED2 /* MyWorkoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsApp.swift; sourceTree = "<group>"; };
+		E0CF93B62661A76500F7CED2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E0CF93B82661A76600F7CED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0CF93BB2661A76600F7CED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0DCA61D2661B27D00496154 /* MyWorkouts WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyWorkouts WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		E0DCA61F2661B27D00496154 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0DCA6232661B3A800496154 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		E0DCA6252661B3CD00496154 /* ControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		E0DCA6262661B3CD00496154 /* ActivityRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		E0DCA6272661B3CD00496154 /* SummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		E0DCA6282661B3CD00496154 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E0DCA6292661B3CD00496154 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		E0DCA62A2661B3CD00496154 /* SessionPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		E0DCA62B2661B3CD00496154 /* MetricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22428BFB2C54203A0017E70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220788F42C9F2510001AD864 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C0A2C54203C0017E70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C142C54203C0017E70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF93AA2661A76500F7CED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B64B62CC8048A00E1F408 /* CoreGPX in Frameworks */,
+				E0DCA6202661B27D00496154 /* HealthKit.framework in Frameworks */,
+				220788F22C9F1EE0001AD864 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2165A03224FF992354618B48 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		22428BFF2C54203A0017E70D /* iPhoneApp */ = {
+			isa = PBXGroup;
+			children = (
+				22428C282C54204E0017E70D /* iPhoneApp.entitlements */,
+				22428C002C54203A0017E70D /* iPhoneAppApp.swift */,
+				22428C362C550C4E0017E70D /* Info.plist */,
+				22428C292C5421900017E70D /* WorkoutManager.swift */,
+				22428C022C54203A0017E70D /* ContentView.swift */,
+				22428C2B2C5421CF0017E70D /* WorkoutDetailView.swift */,
+				22428C042C54203C0017E70D /* Assets.xcassets */,
+				22428C062C54203C0017E70D /* Preview Content */,
+			);
+			path = iPhoneApp;
+			sourceTree = "<group>";
+		};
+		22428C062C54203C0017E70D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22428C072C54203C0017E70D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22428C102C54203C0017E70D /* iPhoneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22428C112C54203C0017E70D /* iPhoneAppTests.swift */,
+			);
+			path = iPhoneAppTests;
+			sourceTree = "<group>";
+		};
+		22428C1A2C54203C0017E70D /* iPhoneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22428C1B2C54203C0017E70D /* iPhoneAppUITests.swift */,
+				22428C1D2C54203C0017E70D /* iPhoneAppUITestsLaunchTests.swift */,
+			);
+			path = iPhoneAppUITests;
+			sourceTree = "<group>";
+		};
+		E0CF93962661A76200F7CED2 = {
+			isa = PBXGroup;
+			children = (
+				E08DF6C32661BF0600EB0963 /* README.md */,
+				E0CF93A52661A76300F7CED2 /* MyWorkouts WatchKit App */,
+				E0CF93B12661A76500F7CED2 /* MyWorkouts WatchKit Extension */,
+				22428BFF2C54203A0017E70D /* iPhoneApp */,
+				22428C102C54203C0017E70D /* iPhoneAppTests */,
+				22428C1A2C54203C0017E70D /* iPhoneAppUITests */,
+				E0CF939E2661A76300F7CED2 /* Products */,
+				E0DCA61E2661B27D00496154 /* Frameworks */,
+				2165A03224FF992354618B48 /* Configuration */,
+				F133DF038AAB08EBB1FDBBE0 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		E0CF939E2661A76300F7CED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF939D2661A76300F7CED2 /* Pacy bynerds.app */,
+				E0CF93A12661A76300F7CED2 /* Pacy bynerds.app */,
+				22428BFE2C54203A0017E70D /* iPhoneApp.app */,
+				22428C0D2C54203C0017E70D /* iPhoneAppTests.xctest */,
+				22428C172C54203C0017E70D /* iPhoneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0CF93A52661A76300F7CED2 /* MyWorkouts WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF93A62661A76400F7CED2 /* Assets.xcassets */,
+				E0CF93A82661A76400F7CED2 /* Info.plist */,
+			);
+			path = "MyWorkouts WatchKit App";
+			sourceTree = "<group>";
+		};
+		E0CF93B12661A76500F7CED2 /* MyWorkouts WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0DCA6222661B39200496154 /* Controller */,
+				E0DCA6212661B38900496154 /* Views */,
+				E0DCA61D2661B27D00496154 /* MyWorkouts WatchKit Extension.entitlements */,
+				E0CF93B42661A76500F7CED2 /* MyWorkoutsApp.swift */,
+				E0CF93B62661A76500F7CED2 /* ComplicationController.swift */,
+				E0CF93B82661A76600F7CED2 /* Assets.xcassets */,
+				E0CF93BA2661A76600F7CED2 /* Preview Content */,
+			);
+			path = "MyWorkouts WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E0CF93BA2661A76600F7CED2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF93BB2661A76600F7CED2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0DCA61E2661B27D00496154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220788F32C9F2510001AD864 /* StoreKit.framework */,
+				220788F12C9F1EE0001AD864 /* StoreKit.framework */,
+				22428BF92C541FAB0017E70D /* HealthKit.framework */,
+				E0DCA61F2661B27D00496154 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DCA6212661B38900496154 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0DCA6262661B3CD00496154 /* ActivityRingsView.swift */,
+				224B64AD2CC0175000E1F408 /* MaxPulseView.swift */,
+				E0DCA6252661B3CD00496154 /* ControlsView.swift */,
+				E0DCA6292661B3CD00496154 /* ElapsedTimeView.swift */,
+				E0DCA62B2661B3CD00496154 /* MetricsView.swift */,
+				E0DCA62A2661B3CD00496154 /* SessionPagingView.swift */,
+				E0DCA6282661B3CD00496154 /* StartView.swift */,
+				E0DCA6272661B3CD00496154 /* SummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0DCA6222661B39200496154 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0DCA6232661B3A800496154 /* WorkoutManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F133DF038AAB08EBB1FDBBE0 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				B97863FA9DADB69A3D7E0241 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22428BFD2C54203A0017E70D /* iPhoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22428C1F2C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneApp" */;
+			buildPhases = (
+				22428BFA2C54203A0017E70D /* Sources */,
+				22428BFB2C54203A0017E70D /* Frameworks */,
+				22428BFC2C54203A0017E70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneApp;
+			productName = iPhoneApp;
+			productReference = 22428BFE2C54203A0017E70D /* iPhoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22428C0C2C54203C0017E70D /* iPhoneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22428C222C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneAppTests" */;
+			buildPhases = (
+				22428C092C54203C0017E70D /* Sources */,
+				22428C0A2C54203C0017E70D /* Frameworks */,
+				22428C0B2C54203C0017E70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22428C0F2C54203C0017E70D /* PBXTargetDependency */,
+			);
+			name = iPhoneAppTests;
+			productName = iPhoneAppTests;
+			productReference = 22428C0D2C54203C0017E70D /* iPhoneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22428C162C54203C0017E70D /* iPhoneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22428C252C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneAppUITests" */;
+			buildPhases = (
+				22428C132C54203C0017E70D /* Sources */,
+				22428C142C54203C0017E70D /* Frameworks */,
+				22428C152C54203C0017E70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22428C192C54203C0017E70D /* PBXTargetDependency */,
+			);
+			name = iPhoneAppUITests;
+			productName = iPhoneAppUITests;
+			productReference = 22428C172C54203C0017E70D /* iPhoneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E0CF939C2661A76300F7CED2 /* Pacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF93C82661A76600F7CED2 /* Build configuration list for PBXNativeTarget "Pacy" */;
+			buildPhases = (
+				E0CF939B2661A76300F7CED2 /* Resources */,
+				E0CF93C72661A76600F7CED2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CF93A42661A76300F7CED2 /* PBXTargetDependency */,
+			);
+			name = Pacy;
+			productName = MyWorkouts;
+			productReference = E0CF939D2661A76300F7CED2 /* Pacy bynerds.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E0CF93A02661A76300F7CED2 /* Pacy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF93C42661A76600F7CED2 /* Build configuration list for PBXNativeTarget "Pacy WatchKit App" */;
+			buildPhases = (
+				E0CF939F2661A76300F7CED2 /* Resources */,
+				E0CF93A92661A76500F7CED2 /* Sources */,
+				E0CF93AA2661A76500F7CED2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pacy WatchKit App";
+			packageProductDependencies = (
+				224B64B52CC8048A00E1F408 /* CoreGPX */,
+			);
+			productName = "MyWorkouts WatchKit App";
+			productReference = E0CF93A12661A76300F7CED2 /* Pacy bynerds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0CF93972661A76300F7CED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					22428BFD2C54203A0017E70D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					22428C0C2C54203C0017E70D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 22428BFD2C54203A0017E70D;
+					};
+					22428C162C54203C0017E70D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 22428BFD2C54203A0017E70D;
+					};
+					E0CF939C2661A76300F7CED2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E0CF93A02661A76300F7CED2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = E0CF939A2661A76300F7CED2 /* Build configuration list for PBXProject "Pacy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0CF93962661A76200F7CED2;
+			packageReferences = (
+				224B64B42CC8048A00E1F408 /* XCRemoteSwiftPackageReference "CoreGPX" */,
+			);
+			productRefGroup = E0CF939E2661A76300F7CED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0CF93A02661A76300F7CED2 /* Pacy WatchKit App */,
+				E0CF939C2661A76300F7CED2 /* Pacy */,
+				22428BFD2C54203A0017E70D /* iPhoneApp */,
+				22428C0C2C54203C0017E70D /* iPhoneAppTests */,
+				22428C162C54203C0017E70D /* iPhoneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22428BFC2C54203A0017E70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22428C082C54203C0017E70D /* Preview Assets.xcassets in Resources */,
+				22428C052C54203C0017E70D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C0B2C54203C0017E70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C152C54203C0017E70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF939B2661A76300F7CED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF939F2661A76300F7CED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CF93BC2661A76600F7CED2 /* Preview Assets.xcassets in Resources */,
+				E0CF93B92661A76600F7CED2 /* Assets.xcassets in Resources */,
+				E0CF93A72661A76400F7CED2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22428BFA2C54203A0017E70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22428C032C54203A0017E70D /* ContentView.swift in Sources */,
+				22428C012C54203A0017E70D /* iPhoneAppApp.swift in Sources */,
+				22428C2A2C5421900017E70D /* WorkoutManager.swift in Sources */,
+				22428C2C2C5421CF0017E70D /* WorkoutDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C092C54203C0017E70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22428C122C54203C0017E70D /* iPhoneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22428C132C54203C0017E70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22428C1C2C54203C0017E70D /* iPhoneAppUITests.swift in Sources */,
+				22428C1E2C54203C0017E70D /* iPhoneAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF93A92661A76500F7CED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DCA6302661B3CD00496154 /* ElapsedTimeView.swift in Sources */,
+				224B64AE2CC0175000E1F408 /* MaxPulseView.swift in Sources */,
+				E0DCA62C2661B3CD00496154 /* ControlsView.swift in Sources */,
+				E0CF93B52661A76500F7CED2 /* MyWorkoutsApp.swift in Sources */,
+				E0CF93B72661A76500F7CED2 /* ComplicationController.swift in Sources */,
+				E0DCA62D2661B3CD00496154 /* ActivityRingsView.swift in Sources */,
+				E0DCA6242661B3A800496154 /* WorkoutManager.swift in Sources */,
+				E0DCA6322661B3CD00496154 /* MetricsView.swift in Sources */,
+				E0DCA62E2661B3CD00496154 /* SummaryView.swift in Sources */,
+				E0DCA62F2661B3CD00496154 /* StartView.swift in Sources */,
+				E0DCA6312661B3CD00496154 /* SessionPagingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22428C0F2C54203C0017E70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22428BFD2C54203A0017E70D /* iPhoneApp */;
+			targetProxy = 22428C0E2C54203C0017E70D /* PBXContainerItemProxy */;
+		};
+		22428C192C54203C0017E70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22428BFD2C54203A0017E70D /* iPhoneApp */;
+			targetProxy = 22428C182C54203C0017E70D /* PBXContainerItemProxy */;
+		};
+		E0CF93A42661A76300F7CED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0CF93A02661A76300F7CED2 /* Pacy WatchKit App */;
+			targetProxy = E0CF93A32661A76300F7CED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22428C202C54203C0017E70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = iPhoneApp/iPhoneApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				INFOPLIST_FILE = iPhoneApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.pacyapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22428C212C54203C0017E70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = iPhoneApp/iPhoneApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				INFOPLIST_FILE = iPhoneApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.pacyapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22428C232C54203C0017E70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.iPhoneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneApp";
+			};
+			name = Debug;
+		};
+		22428C242C54203C0017E70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.iPhoneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneApp";
+			};
+			name = Release;
+		};
+		22428C262C54203C0017E70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.iPhoneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneApp;
+			};
+			name = Debug;
+		};
+		22428C272C54203C0017E70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bynerds.iPhoneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneApp;
+			};
+			name = Release;
+		};
+		E0CF93BE2661A76600F7CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = Yes;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0CF93BF2661A76600F7CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = Yes;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0CF93C52661A76600F7CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "MyWorkouts WatchKit Extension/MyWorkouts WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				INFOPLIST_FILE = "MyWorkouts WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynerds.pacyapp.watch;
+				PRODUCT_NAME = "Pacy bynerds";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		E0CF93C62661A76600F7CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "MyWorkouts WatchKit Extension/MyWorkouts WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				INFOPLIST_FILE = "MyWorkouts WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynerds.pacyapp.watch;
+				PRODUCT_NAME = "Pacy bynerds";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		E0CF93C92661A76600F7CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynerds.pacyapp;
+				PRODUCT_NAME = "Pacy bynerds";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0CF93CA2661A76600F7CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3XEH2NQ3S;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynerds.pacyapp;
+				PRODUCT_NAME = "Pacy bynerds";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22428C1F2C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22428C202C54203C0017E70D /* Debug */,
+				22428C212C54203C0017E70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22428C222C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22428C232C54203C0017E70D /* Debug */,
+				22428C242C54203C0017E70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22428C252C54203C0017E70D /* Build configuration list for PBXNativeTarget "iPhoneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22428C262C54203C0017E70D /* Debug */,
+				22428C272C54203C0017E70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF939A2661A76300F7CED2 /* Build configuration list for PBXProject "Pacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF93BE2661A76600F7CED2 /* Debug */,
+				E0CF93BF2661A76600F7CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF93C42661A76600F7CED2 /* Build configuration list for PBXNativeTarget "Pacy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF93C52661A76600F7CED2 /* Debug */,
+				E0CF93C62661A76600F7CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF93C82661A76600F7CED2 /* Build configuration list for PBXNativeTarget "Pacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF93C92661A76600F7CED2 /* Debug */,
+				E0CF93CA2661A76600F7CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		224B64B42CC8048A00E1F408 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vincentneo/CoreGPX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		224B64B52CC8048A00E1F408 /* CoreGPX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 224B64B42CC8048A00E1F408 /* XCRemoteSwiftPackageReference "CoreGPX" */;
+			productName = CoreGPX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E0CF93972661A76300F7CED2 /* Project object */;
+}

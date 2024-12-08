@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The paging view to switch between controls, metrics, and now playing views.
-*/
-
 import SwiftUI
 import WatchKit
 
@@ -13,19 +6,19 @@ struct SessionPagingView: View {
     @Environment(\.isLuminanceReduced) var isLuminanceReduced
     @State private var selection: Tab = .metrics
 
+    // Update enum to remove nowPlaying
     enum Tab {
-        case controls, metrics, nowPlaying
+        case controls, metrics
     }
 
     var body: some View {
         TabView(selection: $selection) {
             ControlsView().tag(Tab.controls)
             MetricsView().tag(Tab.metrics)
-            NowPlayingView().tag(Tab.nowPlaying)
         }
         .navigationTitle(workoutManager.selectedWorkout?.name ?? "")
         .navigationBarBackButtonHidden(true)
-        .navigationBarHidden(selection == .nowPlaying)
+        .navigationBarHidden(selection == .metrics)  // Update this if you want to hide navigation bar on a specific tab
         .onChange(of: workoutManager.running) { _ in
             displayMetricsView()
         }

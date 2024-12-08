@@ -1,0 +1,118 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/Pacy WatchKit App-master.dia",
+    "emit-module-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/Pacy WatchKit App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/Pacy WatchKit App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/Pacy WatchKit App-master.swiftdeps"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/ComplicationController.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ComplicationController~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Controller/WorkoutManager.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/WorkoutManager~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/MyWorkoutsApp.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MyWorkoutsApp~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/ActivityRingsView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ActivityRingsView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/ControlsView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ControlsView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/ElapsedTimeView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/ElapsedTimeView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/MetricsView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/MetricsView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/SessionPagingView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SessionPagingView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/StartView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/StartView~partial.swiftmodule"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/MyWorkouts WatchKit Extension/Views/SummaryView.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-watchos/Pacy WatchKit App.build/Objects-normal/arm64_32/SummaryView~partial.swiftmodule"
+  }
+}

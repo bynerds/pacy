@@ -1,25 +1,26 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The start view.
-*/
-
 import SwiftUI
 import HealthKit
 
 struct StartView: View {
     @EnvironmentObject var workoutManager: WorkoutManager
-    var workoutTypes: [HKWorkoutActivityType] = [.cycling, .running, .walking]
+    var workoutTypes: [HKWorkoutActivityType] = [.running]
 
     var body: some View {
-        List(workoutTypes) { workoutType in
-            NavigationLink(workoutType.name, destination: SessionPagingView(),
-                           tag: workoutType, selection: $workoutManager.selectedWorkout)
-                .padding(EdgeInsets(top: 15, leading: 5, bottom: 15, trailing: 5))
+        VStack {
+            // Workout Types List
+            ForEach(workoutTypes) { workoutType in
+                NavigationLink(workoutType.name, destination: SessionPagingView(),
+                               tag: workoutType, selection: $workoutManager.selectedWorkout)
+                    .padding(EdgeInsets(top: 0, leading: 5, bottom: 20, trailing: 5))
+            }
+        
+            // Settings button
+            NavigationLink("Settings", destination: MaxPulseView().environmentObject(workoutManager))
+                .padding(EdgeInsets(top: 15, leading: 5, bottom: 0, trailing: 5))
         }
-        .listStyle(.carousel)
-        .navigationBarTitle("Workouts")
+        .padding()  // Add padding to the entire VStack
+        .background(Color.black)  // Set the entire background to black
+        .navigationBarTitle("bynerds")
         .onAppear {
             workoutManager.requestAuthorization()
         }
@@ -40,13 +41,10 @@ extension HKWorkoutActivityType: Identifiable {
     var name: String {
         switch self {
         case .running:
-            return "Run"
-        case .cycling:
-            return "Bike"
-        case .walking:
-            return "Walk"
+            return "Start Run"
         default:
             return ""
         }
     }
 }
+

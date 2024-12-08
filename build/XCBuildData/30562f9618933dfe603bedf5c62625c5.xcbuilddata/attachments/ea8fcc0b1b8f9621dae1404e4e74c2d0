@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests-master.dia",
+    "emit-module-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests-master.swiftdeps"
+  },
+  "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/iPhoneAppTests/iPhoneAppTests.swift" : {
+    "const-values" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.swiftconstvalues",
+    "dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.d",
+    "diagnostics" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.dia",
+    "index-unit-output-path" : "/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.o",
+    "llvm-bc" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.bc",
+    "object" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.o",
+    "swift-dependencies" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests.swiftdeps",
+    "swiftmodule" : "/Users/sebastianlinden/Apps/BuildAWorkoutAppForAppleWatch/build/Pacy.build/Debug-iphoneos/iPhoneAppTests.build/Objects-normal/arm64/iPhoneAppTests~partial.swiftmodule"
+  }
+}

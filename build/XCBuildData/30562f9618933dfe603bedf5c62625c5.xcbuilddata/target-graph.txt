@@ -1,0 +1,9 @@
+Target dependency graph (5 targets)
+Target 'iPhoneAppUITests' in project 'Pacy'
+➜ Explicit dependency on target 'iPhoneApp' in project 'Pacy'
+Target 'iPhoneAppTests' in project 'Pacy'
+➜ Explicit dependency on target 'iPhoneApp' in project 'Pacy'
+Target 'iPhoneApp' in project 'Pacy' (no dependencies)
+Target 'Pacy' in project 'Pacy'
+➜ Explicit dependency on target 'Pacy WatchKit App' in project 'Pacy'
+Target 'Pacy WatchKit App' in project 'Pacy' (no dependencies)

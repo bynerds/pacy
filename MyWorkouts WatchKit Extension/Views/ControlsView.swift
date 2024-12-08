@@ -33,6 +33,8 @@ struct ControlsView: View {
                 Text(workoutManager.running ? "Pause" : "Resume")
             }
         }
+        .navigationBarHidden(true)
+        .navigationTitle("")
     }
 }
 

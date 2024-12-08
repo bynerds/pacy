@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The workout summary view.
-*/
-
 import Foundation
 import HealthKit
 import SwiftUI
@@ -22,7 +15,7 @@ struct SummaryView: View {
     
     var body: some View {
         if workoutManager.workout == nil {
-            ProgressView("Saving Workout")
+            ProgressView("saving...")
                 .navigationBarHidden(true)
         } else {
             ScrollView {
@@ -47,6 +40,12 @@ struct SummaryView: View {
                     SummaryMetricView(title: "Avg. Heart Rate",
                                       value: workoutManager.averageHeartRate.formatted(.number.precision(.fractionLength(0))) + " bpm")
                         .foregroundStyle(.red)
+                    
+                    // Force display in meters
+                    SummaryMetricView(title: "Elevation Ascended",
+                                      value: String(format: "%.2f m", workoutManager.elevationAscended))
+                        .foregroundStyle(.blue)
+                    
                     Text("Activity Rings")
                     ActivityRingsView(healthStore: workoutManager.healthStore)
                         .frame(width: 50, height: 50)
@@ -76,7 +75,8 @@ struct SummaryMetricView: View {
         Text(title)
             .foregroundStyle(.foreground)
         Text(value)
-            .font(.system(.title2, design: .rounded).lowercaseSmallCaps())
+            .font(.system(.title2).lowercaseSmallCaps())
         Divider()
     }
 }
+
