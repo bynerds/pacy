@@ -1,6 +1,6 @@
 # Workout app for Apple Watch
 
-Create your own workout app, quickly and easily, with HealthKit and SwiftUI.
+Workout app built with HealthKit and SwiftUI.
 
 ## Overview
 
